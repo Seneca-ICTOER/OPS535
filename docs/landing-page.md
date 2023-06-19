@@ -6,7 +6,9 @@ slug: /
 description: Landing Page for OPS535
 ---
 
-# Welcome to OPS535 - Advanced Network Administration
+# Welcome to OPS535 
+
+## Advanced Network Administration
 
 ## Quick Links
 
