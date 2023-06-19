@@ -65,7 +65,7 @@ Install and configure an Internet email system for your assigned Domain using th
 You need the following services and network infrastructure to support your Internet Email System (some of which should have been configured in assignment 1):
 
 - pri-dns (VM2) must be the primary DNS name server for your domain updated with the proper MX record(s), SPF record(s), A record(s), and PTR record(s). It must be queriable by any machines in the 192.168.0.0/16 network.
-    - Provide the root name server operator(s) of the <yourname>.ops domain with glue records for your domain.
+    - Provide the root name server operator(s) of the <yourname\>.ops domain with glue records for your domain.
 - co-nfs (VM3) must be the caching DNS server, accessible only to machines in your networks, that will start its query with the root name server(s) in the virtual lab (e.g. rns-ldap.rdu6.ops (192.168.6.4), rns-ldap.wsu15.ops (192.168.35.4)), and then the appropriate primary DNS server.
 - if you are one of the root name server operators, your rns-ldap (VM4) must provide authoritative responses to any valid DNS queries.
     - All authorized root name servers in the virtual lab must response to queries by any network devices from the 192.168.0.0/16 network.
