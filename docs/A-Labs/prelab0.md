@@ -25,7 +25,7 @@ None.This will start with a brand-new installation of CentOS on your drive. You 
 Install Centos on your host machine following the guidelines below:
 
 - Networking Should be on.
-- Set the hostname of the machine to be host.<domainname>.ops. Check blackboard for your assigned domain name.
+- Set the hostname of the machine to be host.<domainname\>.ops. Check blackboard for your assigned domain name.
 - Set the timezone to Americas/Toronto
 - Select Server with GUI as the installation type.
 - The partition setup will be similar to what you had in previous OPS courses.
@@ -58,7 +58,7 @@ Make sure your machine meets the following conditions:
     - Click the box to ‘Customize configuration before install’, and use the ‘Add Hardware’ button to create a second network interface.
     - The VM should now have two network interfaces, one connected to each virtual network.
     - During the installation process:
-        - Set the hostname to vm1.lab.<yourdomain>.ops, using the same domain name as the host machine.
+        - Set the hostname to vm1.lab.<yourdomain\>.ops, using the same domain name as the host machine.
         - Configure the interface connected to your default network to use DHCP addressing, and ensure it will automatically turn on when the machine boots.
         - Configure the interface connected to the private network to use the static address 192.168.[x].53, using the same x network number assigned to that virtual network. Do not provide this interface with a gateway.
         - Set the timezone to Americas/Toronto.
