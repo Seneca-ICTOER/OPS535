@@ -12,13 +12,8 @@ description: Landing Page for OPS535
 
 ## Quick Links
 
-| [Weekly Schedule](./weekly-schedule.md) | [Course Outline](https://scs.senecac.on.ca/course/ops535) | [Fedora Project](http://fedoraproject.org/) | [Fedora documentation](http://docs.fedoraproject.org/) |
-| --- | --- | --- | --- |
-
-## Assignments
-
-| [Assignment 1](/B-Assignments/assignment1.md) | [Assignment 2](/B-Assignments/assignment2.md) |
-| --- | --- |
+| [Weekly Schedule](./weekly-schedule.md) | [Course Outline](https://scs.senecac.on.ca/course/ops535) | [Fedora Project](http://fedoraproject.org/) | [Fedora documentation](http://docs.fedoraproject.org/) | [Assignment 1](/B-Assignments/assignment1.md) | [Assignment 2](/B-Assignments/assignment2.md) |
+| --- | --- | --- | --- |--- | --- |
 
 ## What This Course is About
 
