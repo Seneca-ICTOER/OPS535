@@ -23,6 +23,8 @@ The pre-lab must be complete so that your virtual machines share access to a pri
 - https://www.golinuxcloud.com/configure-openldap-with-tls-certificates/
 - https://www.golinuxcloud.com/ldap-client-rhel-centos-8
 - https://kifarunix.com/configure-sssd-for-openldap-authentication-on-centos-8/
+- [authselect package](https://www.mankier.com/package/authselect)
+- [Create server key and certificate tutorial (Apache Doc)](http://httpd.apache.org/docs/2.4/ssl/ssl_faq.html)
 
 ## Investigation 1: OpenLDAP Server Setup and Configuration
 

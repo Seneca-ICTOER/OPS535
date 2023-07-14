@@ -23,7 +23,7 @@ description: Lab 4 Alternate
 
 ## Investigation 1: Algorithm for setup and configure an Primary DNS server with Dynamic Zone
 
-Based on the steps you performed on [Lab 4 - Dynamic DNS lab](./lab4-home.md), design and create an appropriate algorithm to setup and configure a Primary DNS server with Dynamic zone on your Seneca VM2 remotely from your control VM (Seneca VM1). You can follow the format used in Investigate 3, Task 1 in Lab 2 - NFS Lab on VL (ADD LINK)
+Based on the steps you performed on [Lab 4 - Dynamic DNS lab](./lab4-home.md), design and create an appropriate algorithm to setup and configure a Primary DNS server with Dynamic zone on your Seneca VM2 remotely from your control VM (Seneca VM1). You can follow the format used in Investigate 3, Task 1 in [Lab 2 - NFS Lab on VL](./lab2-stage2.md)
 
 - Name your algorithm as "lab4-ddns-algorithm.txt"
 - Save your algorithm file to ~student/ops535/lab4/lab4-ddns-algorithm.txt

@@ -55,9 +55,9 @@ Later labs and assignments will specify what additional software packages and se
 
 **Network Diagram**
 
-Please based on this [OPS535 Virtual-lab Network Diagram](https://scs.senecac.on.ca/~raymond.chan/ops535/network/ops535_virtual_lab_network_diagram.pdf) to figure out the necessary network configuration so that all your VMs are reachable from all other VMs (i.e. all the VMs in our OPS535 Virtual-lab using the 192.168.x.y address space. Click [here](https://github.com/rayfreeping/ops535/raw/master/vitrual_lab/ops535_VLS_routing_slides.pdf) for more details network diagram for routing configuration.
+Please based on this [OPS535 Virtual-lab Network Diagram](https://scs.senecac.on.ca/~raymond.chan/ops535/network/ops535_virtual_lab_network_diagram.pdf) to figure out the necessary network configuration so that all your VMs are reachable from all other VMs (i.e. all the VMs in our OPS535 Virtual-lab using the 192.168.x.y address space. Click [here](/slides/ops535_VLS_routing_slides.pdf) for more details network diagram for routing configuration.
 
-Sample routing scripts (for reference only, do not use it as is) can be found [here](https://wiki.cdot.senecacollege.ca/wiki/VLS2VLS-Routing).
+Sample routing scripts (for reference only, do not use it as is) can be found [here](/C-ExtraResources/vls2vls-routing.md).
 
 **IMPORTANT**: All the IP address 172.20.x.y (where 172.20.x is your network number, and y is the host part of the IP address) are assignment to your VMs by the DHCP server in the OPS535 Virtual-lab. This range of IP addresses are normally assigned to the virtual network adaptor named ens192 (may be changed in the future) on each VM. Please do not change these IP addresses, otherwise, you will cut the VM off from the network and you won't be able to ssh back into it again from matrix.
 
@@ -87,13 +87,13 @@ Other than VM1, the other three VMs on each student's LAN segment has two virtua
 
 - There are more than thirty virtual LAN segments (VLS) in the OPS535 Virtual Lab, each Virtual LAN segment should use the private network address space 192.168.x.0/24 for local traffic. VMs in each local LAN segment should be reachable via the gateway (your VM1) with the IP address 172.20.x.1 from VMs in other VLSs in the lab. The value of x is also ranging from 1 to 43.
 - On each VM in your VLS, you can either add a custom route for each other VLS in the lab using your VM1's private IP (192.168.x.1) as the gateway. In this case, you need to add a maximum of 42 routes in order to reach all the VMs in the other 42 VLS. You **DO NOT** need a custom route to your own VLS. You can also simply add a single route to 192.168.0.0/16 using your VM1's private IP as the gateway.
-- You can either use the nmtui utility to add a static custom route for each VLS y that you want to reach or use the nmcli command as given in the wiki page on VLS to VLS routing (ADD LINK)
+- You can either use the nmtui utility to add a static custom route for each VLS y that you want to reach or use the nmcli command as given in [the page on VLS to VLS routing](/C-ExtraResources/vls2vls-routing.md)
 - Before moving on to the next step, use the "ip route" command to confirm your current kernel routing table on your VM1.
 
 **ON VM2, VM3, and VM4**
 
 - Use the command "ip route show" to verify the default route in all your VMs' kernel routing table. It should point to 172.16.255.1. Report to your professor if it is not.
-- Add the same custom route(s) to VM2, VM3, and VM4 in your VLS to other VLSs your want to reach. Each custom route should use 192.168.x.1 as the gateway (NOT as a default gateway) in each of your VM2 to VM4. You can either use the nmtui utility or the nmcli command. For details, consult this wiki page on VLS to VLS routing (ADD LINK)
+- Add the same custom route(s) to VM2, VM3, and VM4 in your VLS to other VLSs your want to reach. Each custom route should use 192.168.x.1 as the gateway (NOT as a default gateway) in each of your VM2 to VM4. You can either use the nmtui utility or the nmcli command. For details, consult [this page on VLS to VLS routing](/C-ExtraResources/vls2vls-routing.md)
 
 ## Network Connectivity Testing
 

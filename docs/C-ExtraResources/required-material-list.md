@@ -16,7 +16,7 @@ description: Required Material List
   - 250GB+ SSD drive with USB 3.0 enclosure
 - Software
   - 64-bit version of CentOS 8 installation DVD iso image
-- [Lab Log Book](https://www.dropbox.com/s/s5oe9xbpx5hofad/OPS535%20Lab%20Log%20book.pdf?dl=1)
+- [Lab Log Book](/files/OPS535_Lab_Logbook.pdf)
   - Can be used during test(s) and exam.
   - Must have your name on each pages
   - May be collected after your test and exam

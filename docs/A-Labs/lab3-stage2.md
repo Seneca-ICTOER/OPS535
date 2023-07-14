@@ -23,7 +23,7 @@ description: Lab 3 Stage 2
 
 ## Investigation 1: Algorithm for setup and configure an OpenLDAP server
 
-Based on the steps you performed on [Lab 3 - Stage 1 LDAP lab](./lab3-stage1.md), design and create an appropriate algorithm to setup and configure an OpenLDAP server on your Seneca VM4 remotely from your control VM (Seneca VM1). You can follow the format used in Investigate 3, Task 1 in Lab 2 - NFS Lab on VL (ADD LINK)
+Based on the steps you performed on [Lab 3 - Stage 1 LDAP lab](./lab3-stage1.md), design and create an appropriate algorithm to setup and configure an OpenLDAP server on your Seneca VM4 remotely from your control VM (Seneca VM1). You can follow the format used in Investigate 3, Task 1 in [Lab 2 - NFS Lab on VL](./lab2-stage2.md)
 
 - Name your algorithm as "lab3-ldap-algorithm.txt"
 - Save your algorithm file to ~student/ops535/lab3/lab3-ldap-algorithm.txt
