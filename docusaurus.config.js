@@ -5,7 +5,7 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OPS535 Course Title',
+  title: 'OPS535 - Open System Clustering - Advanced Network Administration',
   tagline: 'OPS535 Tag/Keyword',
   url: 'https://Seneca-ICTOER.github.io/',
   baseUrl: '/OPS535/',
@@ -17,7 +17,7 @@ module.exports = {
   projectName: 'OPS535',
   themeConfig: {
     navbar: {
-      title: 'OPS535 Course Title',
+      title: 'OPS535 - Open System Clustering - Advanced Network Administration',
       logo: {
         alt: 'Seneca College',
         src: 'img/logo.svg',
@@ -31,7 +31,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'OPS535 Course Title',
+          title: 'OPS535 - Open System Clustering - Advanced Network Administration',
           items: [
             {
               label: 'Contents',
